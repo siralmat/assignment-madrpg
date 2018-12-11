@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MADrpg</string>
+
+    <string name="food">🍎</string>
+    <string name="equipment">👗</string>
+    <string name="victory">🏆️</string>
+    <string name="special">⁉️️</string>
+
+    <string name="jade_monkey">🙈</string>
+    <string name="roadmap">🗺️</string>
+    <string name="ice_scraper">⛏️</string>
+
+    <string name="buy">💰</string>
+    <string name="sell">💰</string>
+    <string name="pickup">🖐️</string>
+    <string name="drop">🗑️</string>
+
+    <string name="star">★</string>
+    <string name="unexplored">❔</string>
+    <string name="town">🏠</string>
+    <string name="wilderness">🌲</string>
+
+    <string name="town_alt">🏡</string>
+
+    <string name="cross">✖️</string>
+    <string name="check">✔️</string>
+
+    <string name="description_hint">Enter a description…</string>
+    <string name="msg_victory">You collected all the items. Play again?</string>
+    <string name="msg_gameover">You ran out of health. Play again?</string>
+    <string name="title_victory">You won!</string>
+    <string name="title_gameover">Game over</string>
+    <string name="title_restart">Restart</string>
+    <string name="msg_restart">Do you really want to restart?</string>
+</resources>

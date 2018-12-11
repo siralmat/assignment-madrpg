@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/labelCash"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="2dp"
+        android:text="$" />
+
+    <TextView
+        android:id="@+id/playerCash"
+        android:layout_height="wrap_content"
+        android:layout_width="40dp"
+        android:layout_weight="2"
+        android:text="000" />
+
+    <TextView
+        android:id="@+id/playerMass"
+        android:layout_weight="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textAlignment="textEnd"
+        android:text="000.00" />
+    <TextView
+        android:id="@+id/labelMass"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:text="kg" />
+
+    <TextView
+        android:id="@+id/playerHealth"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="100"
+        android:textAlignment="textEnd"/>
+
+    <TextView
+        android:id="@+id/labelHealth"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:text="HP" />
+
+    <TextView
+        android:id="@+id/iconJadeMonkey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jade_monkey" />
+
+    <TextView
+        android:id="@+id/iconRoadmap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/roadmap" />
+
+    <TextView
+        android:id="@+id/iconIceScraper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:text="@string/ice_scraper" />
+
+    <Button
+        android:id="@+id/btnRestart"
+        style="@android:style/Widget.Material.Button.Inset"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/title_restart"
+        android:textAllCaps="true"
+        android:textStyle="bold" />
+
+</LinearLayout>

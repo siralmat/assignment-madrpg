@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#311b92</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="areaStarred">#ffe100</color>
+    <color name="areaExploredBg">#ffffff</color>
+    <color name="areaUnexploredBg">#000000</color>
+</resources>
